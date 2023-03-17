@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: azure;
+    height: 57px;
+    font-size: 30px;
+    display: flex;
+    padding: 0 12px;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.container{
+    width: 90%;
+    color: #ffff;
+    max-width: 400px;
+    background: linear-gradient(#000824,#248b7f,#00ff9e);
+    margin: 100px auto 0;
+    border-radius: 30px;
+    text-align: center;
+    padding: 40px 35px;
+
+}
+.searchbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchbox input{
+    border: 0;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    margin-right: 20px;
+    background: #fff;
+    font-size: 30px;
+    height: 30px;
+    width: 200px;
+    border-radius: 40px;
+    flex: 1;
+}
+.searchbox button{
+    border: 0;
+    outline: 0;
+    background: #fff;
+    border-radius: 60%;
+    height: 50px;
+    width: 54px;
+    cursor: pointer;
+
+}
+.searchbox button img{
+    width: 25px;
+}
+.icon{
+    width: 130px;
+    margin-top: -5px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 400;
+
+    padding-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cont{
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    
+    }
+.weather h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: -10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.weather h3{
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 0 20px;
+    margin-top: 42px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+}
+.col img{
+    width: 54px;
+    margin-right: 10px;
+    
+}.humidity , .wind{
+    font-size: 30px;
+    margin-right: -10px;
+}
